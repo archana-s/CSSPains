@@ -1,0 +1,16 @@
+.header {
+	background-color: grey;
+	height: 200px;
+}
+
+.header:before {
+	height: 100%;
+	vertical-align: middle;
+	content: "";
+	display: inline-block;
+}
+
+.content {
+	vertical-align: middle;
+	display: inline-block;
+}
